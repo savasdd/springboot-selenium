@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  selenium:
+    image: selenium/standalone-chrome:latest
+    ports:
+      - "4444:4444"
+      - "7900:7900"
+    shm_size: 2g
+#    network_mode: "host"
+
+  seleniumapi:
+    image: seleniumapi:latest
+    container_name: selenium-api
+    ports:
+      - "8086:8085"

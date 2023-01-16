@@ -1,0 +1,7 @@
+
+grid: http://10.10.28.31:4444/wd/hub
+hub: http://10.10.28.31:4444/wd/hub
+noVNC: http://localhost:7900/ (secret)
+
+docker: http://localhost:8086/api/vys/login
+devp:   http://localhost:8085/api/vys/login
